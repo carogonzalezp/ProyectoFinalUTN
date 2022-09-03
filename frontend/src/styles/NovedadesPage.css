@@ -1,0 +1,46 @@
+.novedades{
+    display: flex;
+     text-align: center;
+     margin-top: 20px;
+        
+ }
+ .novedades h3{
+     text-decoration: underline;
+     text-align: center;
+     text-transform: uppercase;
+     text-decoration-color: brown;
+     color: brown;
+     font-size: large;
+     
+ 
+ }
+ .contenedorIzquierdo {
+     
+     width: 50%;
+     
+ 
+ }
+ .contenedorDerecho{
+     
+     width: 50%;
+     text-align: justify;
+     font-size: small;
+     margin-top: 70px;
+     word-spacing: 0px;
+     font-weight: 400;
+     font-style: oblique;
+     
+     
+ }
+ 
+ 
+ .novedades img {
+     width: 300px;
+     max-height: 800px;
+     border-radius: 20px;
+  
+     
+ 
+ }
+ 
+ 

@@ -1,0 +1,265 @@
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;*/
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    background-color: #F4A460;
+}
+
+header{
+    background-color: white;
+    padding: 16px 0;
+
+}
+.social {
+    width:48px;
+    position: fixed;
+    right: 50px;
+    top: 40px;
+    
+}
+header h1{
+    color: brown;
+    font-size: 40px;
+    font-weight:lighter;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration:underline;
+    text-decoration-style: dotted; 
+   
+    
+}
+
+header p{
+    font-style: oblique;
+    font-size: medium; 
+    padding-left: 30px;
+    
+}
+
+.titulo1{
+    display: inline-block;
+    position: relative;
+    margin-left: 10px;
+    padding-top: 30px;
+}
+
+
+nav{
+    background-color: #FFAB33;
+    margin-bottom: 20px;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li{
+    flex-grow: 1;
+}
+
+nav ul li a{
+    color: brown;
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    
+    
+}
+
+nav ul li a:hover{
+      background-color: #FFDEAD;
+}
+
+footer{
+    background-color: #F5C37B;
+    clear: both;
+    color: #333;
+    text-align: center;
+    margin-top: 80px;
+}
+
+nav ul li a.activo{
+    background-color: #FFDEAD;
+}
+.holder{
+    max-width: 960px;
+    margin: 0 auto;
+}
+/*COMIENZA EL INICIO*/
+.balanzaymartillo{
+    position: relative;
+    display: inline-block;
+}
+.balanzaymartillo .intro p{
+    position: absolute;
+    top: 80%;
+    padding: 15px;
+    color: rgba(245, 245, 245, 0.826);
+    font-size: 25px;
+    font-variant: small-caps;
+    font-weight: 700;
+}
+
+
+
+/*COMIENZA QUIENES SOMOS*/
+.quienessomos{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.quienessomos img{
+    width: 550px;
+    border-radius: 25px 0 25px 0;
+    margin-top: 50px;
+    min-height: 350px;
+    
+}
+
+.quienessomos .frase h2{
+    color: brown;
+    font-weight:lighter;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+
+}
+.quienessomos .frase p{
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 700;
+
+}
+
+
+
+
+/*aca comienza novedades*/
+
+.novedades{
+   display: flex;
+    text-align: center;
+    margin-top: 20px;
+       
+}
+.novedades h3{
+    text-decoration: underline;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration-color: brown;
+    color: brown;
+    font-size: large;
+    
+
+}
+.contenedorIzquierdo {
+    
+    width: 50%;
+    
+
+}
+.contenedorDerecho{
+    
+    width: 50%;
+    text-align: justify;
+    font-size: small;
+    margin-top: 70px;
+    word-spacing: 0px;
+    font-weight: 400;
+    font-style: oblique;
+    
+    
+}
+
+
+.novedades img {
+    width: 300px;
+    max-height: 800px;
+    border-radius: 20px;
+ 
+    
+
+}
+
+
+
+
+/*aca empieza contacto*/
+.contacto{
+    display: flex;
+    gap: 24px;
+}
+.contacto div{
+    width: 100%;
+}
+.p{
+    font-size: 14px;
+}
+
+.datos ul li{
+    font-size: 13px;
+    list-style: none;
+    
+}
+
+.formulario p{
+    display: flex;
+}
+
+.formulario p label{
+    min-width: 80px;
+}
+
+.formulario p label{
+    display: flex;
+    align-items: center;
+}
+
+.formulario p:nth-child(4) {
+    align-items: start;
+}
+
+.formulario textarea{
+    resize: none;
+    height: 150px;
+}
+
+.formulario input[type=submit] {
+    background: #F6F205;
+    color: brown;
+    font-size: 16px;
+    width: auto;
+    position: relative;
+    left: 80px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.formulario input[type="submit"]:hover{
+    background-color:#F5C37B ;
+}
+.horariosDeAtencion {
+    font-size: 16px;
+    /*gap: 20px;*/
+}
+ 
+
+.col-7 h3{
+    margin-left: 70px;
+}
+
+.col-2 {
+   /* margin-top: 5px;*/
+    margin-left: 230px;
+}
+
+ .col table{
+    width: 90%;
+	height: 300px; 
+    margin:auto;
+ }

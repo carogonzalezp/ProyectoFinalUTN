@@ -1,0 +1,13 @@
+.balanzaymartillo{
+    position: relative;
+    display: inline-block;
+}
+.balanzaymartillo .intro p{
+    position: absolute;
+    top: 80%;
+    padding: 15px;
+    color: rgba(245, 245, 245, 0.826);
+    font-size: 25px;
+    font-variant: small-caps;
+    font-weight: 700;
+}

@@ -1,0 +1,26 @@
+.quienessomos{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.quienessomos img{
+    width: 550px;
+    border-radius: 25px 0 25px 0;
+    margin-top: 50px;
+    min-height: 350px;
+    
+}
+
+.quienessomos .frase h2{
+    color: brown;
+    font-weight:lighter;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+
+}
+.quienessomos .frase p{
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 700;
+
+}
