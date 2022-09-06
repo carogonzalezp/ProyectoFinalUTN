@@ -4,6 +4,7 @@ import NovedadItem from '../components/novedades/NovedadItem';
 
 
 
+
 const NovedadesPage = (props) => {
 
     const [loading, setLoading] = useState(false);
