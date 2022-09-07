@@ -4,7 +4,7 @@ const Header = (props) => {
     return (
         <header>
             <div className="holder">
-                <img src="img/logojusticia.jpg" width="100" alt="logojusticia" />
+                <img  src="img/logojusticia.jpg" align="left" width="100" alt="logojusticia" />
                 <div className="titulo1">
                     <h1>VIGHI & ASOCIADOS</h1>
                     <p>ABOGADOS-CONSULTORES DE EMPRESAS</p>
