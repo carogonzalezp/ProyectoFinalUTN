@@ -64,7 +64,9 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-      background-color: #FFDEAD;
+    background-color: #FFDEAD;
+    color: brown;
+           
 }
 
 footer{

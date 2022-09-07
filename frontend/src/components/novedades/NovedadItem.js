@@ -9,7 +9,7 @@ const NovedadItem = (props) => {
             <h1>{title}</h1>
             <h2>{subtitle}</h2>
             <img className="img-fluid" src={imagen} alt="..." />
-            <div dangerouslySetInnerHTML={{ __html: body }} />
+            <div dangerouslySetInnerHTML={{ __html: body }}  />
             <hr/>
         </div>
     );
