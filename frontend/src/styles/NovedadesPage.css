@@ -2,9 +2,10 @@
     display: flex;
      text-align: center;
      margin-top: 20px;
+     flex-direction: column;
         
  }
- .novedades h3{
+ .novedades h1 h2{
      text-decoration: underline;
      text-align: center;
      text-transform: uppercase;
@@ -33,14 +34,22 @@
      
  }
  
- 
  .novedades img {
-     width: 300px;
-     max-height: 800px;
-     border-radius: 20px;
-  
-     
+    width: 300px;
+    max-height: 800px;
+    border-radius: 20px;
+}
  
+.novedades-image{
+    background-size:cover;
+    background-repeat: no_repeat;
+    background-position: center;
+    width: 800px;
+    height: 400px;
+    border: solid 2px red;
  }
+ 
+
+ 
  
  

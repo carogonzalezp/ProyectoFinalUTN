@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../styles/NovedadesPage.css';
 
 const NovedadItem = (props) => {
     const { title, subtitle, imagen, body } = props;
@@ -7,7 +8,7 @@ const NovedadItem = (props) => {
         <div className='novedades'>
             <h1>{title}</h1>
             <h2>{subtitle}</h2>
-            <img src={imagen} width="800px" height="400px" />
+            <img className="img-fluid" src={imagen} alt="..." />
             <div dangerouslySetInnerHTML={{ __html: body }} />
             <hr/>
         </div>
